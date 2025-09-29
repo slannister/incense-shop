@@ -1,0 +1,328 @@
+[
+  {
+    "id": "0a657b83-5ed3-4ea2-a6c7-26b47a30d020_0",
+    "name": "0A657B83-5ED3-4EA2-A6C7-26B47A30D020_0",
+    "categoryId": "A",
+    "category": "祈福燈具",
+    "price": 680,
+    "currency": "TWD",
+    "description": "祈求財運與光明的燭燈與禮盒，適合神桌或居家供奉。",
+    "inStock": 8,
+    "image": "images/products/0A657B83-5ED3-4EA2-A6C7-26B47A30D020_0.jpg",
+    "highlights": [
+      "祈福燈具",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/0A657B83-5ED3-4EA2-A6C7-26B47A30D020_0.jpg"
+    ]
+  },
+  {
+    "id": "0dadaa16-cad9-4c1d-a7fc-c104532be0d3",
+    "name": "0DADAA16-CAD9-4C1D-A7FC-C104532BE0D3",
+    "categoryId": "A",
+    "category": "祈福燈具",
+    "price": 740,
+    "currency": "TWD",
+    "description": "祈求財運與光明的燭燈與禮盒，適合神桌或居家供奉。",
+    "inStock": 21,
+    "image": "images/products/0DADAA16-CAD9-4C1D-A7FC-C104532BE0D3.jpg",
+    "highlights": [
+      "祈福燈具",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/0DADAA16-CAD9-4C1D-A7FC-C104532BE0D3.jpg"
+    ]
+  },
+  {
+    "id": "0dadaa16-cad9-4c1d-a7fc-c104532be0d3_0",
+    "name": "0DADAA16-CAD9-4C1D-A7FC-C104532BE0D3_0",
+    "categoryId": "A",
+    "category": "祈福燈具",
+    "price": 800,
+    "currency": "TWD",
+    "description": "祈求財運與光明的燭燈與禮盒，適合神桌或居家供奉。",
+    "inStock": 27,
+    "image": "images/products/0DADAA16-CAD9-4C1D-A7FC-C104532BE0D3_0.jpg",
+    "highlights": [
+      "祈福燈具",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/0DADAA16-CAD9-4C1D-A7FC-C104532BE0D3_0.jpg"
+    ]
+  },
+  {
+    "id": "3e297e05-530b-44df-9829-1de8fa1e4b71_0",
+    "name": "3E297E05-530B-44DF-9829-1DE8FA1E4B71_0",
+    "categoryId": "A",
+    "category": "祈福燈具",
+    "price": 860,
+    "currency": "TWD",
+    "description": "祈求財運與光明的燭燈與禮盒，適合神桌或居家供奉。",
+    "inStock": 10,
+    "image": "images/products/3E297E05-530B-44DF-9829-1DE8FA1E4B71_0.jpg",
+    "highlights": [
+      "祈福燈具",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/3E297E05-530B-44DF-9829-1DE8FA1E4B71_0.jpg"
+    ]
+  },
+  {
+    "id": "5f530e45-04aa-460e-9b97-e23cea8f9ea4_0",
+    "name": "5F530E45-04AA-460E-9B97-E23CEA8F9EA4_0",
+    "categoryId": "A",
+    "category": "祈福燈具",
+    "price": 920,
+    "currency": "TWD",
+    "description": "祈求財運與光明的燭燈與禮盒，適合神桌或居家供奉。",
+    "inStock": 21,
+    "image": "images/products/5F530E45-04AA-460E-9B97-E23CEA8F9EA4_0.jpg",
+    "highlights": [
+      "祈福燈具",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/5F530E45-04AA-460E-9B97-E23CEA8F9EA4_0.jpg",
+      "images/products/5F530E45-04AA-460E-9B97-E23CEA8F9EA4_0.jpg",
+      "images/products/5F530E45-04AA-460E-9B97-E23CEA8F9EA4_0.jpg"
+    ]
+  },
+  {
+    "id": "114b6aad-5230-4bbb-aa15-153616adc931_0",
+    "name": "114B6AAD-5230-4BBB-AA15-153616ADC931_0",
+    "categoryId": "B",
+    "category": "神尊供奉用品",
+    "price": 720,
+    "currency": "TWD",
+    "description": "結合福德正神、延壽燈與招財設計的供桌禮盒。",
+    "inStock": 14,
+    "image": "images/products/114B6AAD-5230-4BBB-AA15-153616ADC931_0.jpg",
+    "highlights": [
+      "神尊供奉用品",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/114B6AAD-5230-4BBB-AA15-153616ADC931_0.jpg"
+    ]
+  },
+  {
+    "id": "7cd797b9-20e5-483b-addc-e5a5feefd3a7_0",
+    "name": "7CD797B9-20E5-483B-ADDC-E5A5FEEFD3A7_0",
+    "categoryId": "B",
+    "category": "神尊供奉用品",
+    "price": 800,
+    "currency": "TWD",
+    "description": "結合福德正神、延壽燈與招財設計的供桌禮盒。",
+    "inStock": 33,
+    "image": "images/products/7CD797B9-20E5-483B-ADDC-E5A5FEEFD3A7_0.jpg",
+    "highlights": [
+      "神尊供奉用品",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/7CD797B9-20E5-483B-ADDC-E5A5FEEFD3A7_0.jpg"
+    ]
+  },
+  {
+    "id": "82da77e4-eeae-4e91-bdb2-0f1ae3cadf82",
+    "name": "82DA77E4-EEAE-4E91-BDB2-0F1AE3CADF82",
+    "categoryId": "B",
+    "category": "神尊供奉用品",
+    "price": 880,
+    "currency": "TWD",
+    "description": "結合福德正神、延壽燈與招財設計的供桌禮盒。",
+    "inStock": 8,
+    "image": "images/products/82DA77E4-EEAE-4E91-BDB2-0F1AE3CADF82.jpg",
+    "highlights": [
+      "神尊供奉用品",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/82DA77E4-EEAE-4E91-BDB2-0F1AE3CADF82.jpg"
+    ]
+  },
+  {
+    "id": "82da77e4-eeae-4e91-bdb2-0f1ae3cadf82_0",
+    "name": "82DA77E4-EEAE-4E91-BDB2-0F1AE3CADF82_0",
+    "categoryId": "B",
+    "category": "神尊供奉用品",
+    "price": 960,
+    "currency": "TWD",
+    "description": "結合福德正神、延壽燈與招財設計的供桌禮盒。",
+    "inStock": 19,
+    "image": "images/products/82DA77E4-EEAE-4E91-BDB2-0F1AE3CADF82_0.jpg",
+    "highlights": [
+      "神尊供奉用品",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/82DA77E4-EEAE-4E91-BDB2-0F1AE3CADF82_0.jpg"
+    ]
+  },
+  {
+    "id": "8fe2a0db-c2fa-4719-865f-670aeefbf85d_0",
+    "name": "8FE2A0DB-C2FA-4719-865F-670AEEFBF85D_0",
+    "categoryId": "B",
+    "category": "神尊供奉用品",
+    "price": 1040,
+    "currency": "TWD",
+    "description": "結合福德正神、延壽燈與招財設計的供桌禮盒。",
+    "inStock": 20,
+    "image": "images/products/8FE2A0DB-C2FA-4719-865F-670AEEFBF85D_0.jpg",
+    "highlights": [
+      "神尊供奉用品",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/8FE2A0DB-C2FA-4719-865F-670AEEFBF85D_0.jpg"
+    ]
+  },
+  {
+    "id": "cd4cb208-7c5b-418f-aaa0-7fe86f90290d_0",
+    "name": "CD4CB208-7C5B-418F-AAA0-7FE86F90290D_0",
+    "categoryId": "B",
+    "category": "神尊供奉用品",
+    "price": 1120,
+    "currency": "TWD",
+    "description": "結合福德正神、延壽燈與招財設計的供桌禮盒。",
+    "inStock": 16,
+    "image": "images/products/CD4CB208-7C5B-418F-AAA0-7FE86F90290D_0.jpg",
+    "highlights": [
+      "神尊供奉用品",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/CD4CB208-7C5B-418F-AAA0-7FE86F90290D_0.jpg"
+    ]
+  },
+  {
+    "id": "dfdaded8-b21b-415f-b5d2-e70529715bdf",
+    "name": "DFDADED8-B21B-415F-B5D2-E70529715BDF",
+    "categoryId": "B",
+    "category": "神尊供奉用品",
+    "price": 1200,
+    "currency": "TWD",
+    "description": "結合福德正神、延壽燈與招財設計的供桌禮盒。",
+    "inStock": 12,
+    "image": "images/products/DFDADED8-B21B-415F-B5D2-E70529715BDF.jpg",
+    "highlights": [
+      "神尊供奉用品",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/DFDADED8-B21B-415F-B5D2-E70529715BDF.jpg"
+    ]
+  },
+  {
+    "id": "dfdaded8-b21b-415f-b5d2-e70529715bdf_0",
+    "name": "DFDADED8-B21B-415F-B5D2-E70529715BDF_0",
+    "categoryId": "B",
+    "category": "神尊供奉用品",
+    "price": 1280,
+    "currency": "TWD",
+    "description": "結合福德正神、延壽燈與招財設計的供桌禮盒。",
+    "inStock": 33,
+    "image": "images/products/DFDADED8-B21B-415F-B5D2-E70529715BDF_0.jpg",
+    "highlights": [
+      "神尊供奉用品",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/DFDADED8-B21B-415F-B5D2-E70529715BDF_0.jpg"
+    ]
+  },
+  {
+    "id": "f30c3842-02a7-46e0-bd90-bf256f09ea14_0",
+    "name": "F30C3842-02A7-46E0-BD90-BF256F09EA14_0",
+    "categoryId": "B",
+    "category": "神尊供奉用品",
+    "price": 1360,
+    "currency": "TWD",
+    "description": "結合福德正神、延壽燈與招財設計的供桌禮盒。",
+    "inStock": 17,
+    "image": "images/products/F30C3842-02A7-46E0-BD90-BF256F09EA14_0.jpg",
+    "highlights": [
+      "神尊供奉用品",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/F30C3842-02A7-46E0-BD90-BF256F09EA14_0.jpg"
+    ]
+  },
+  {
+    "id": "399a3666-5c24-48b7-8c23-5d0c28365d51_0",
+    "name": "399A3666-5C24-48B7-8C23-5D0C28365D51_0",
+    "categoryId": "C",
+    "category": "招財虎爺擺飾",
+    "price": 760,
+    "currency": "TWD",
+    "description": "虎爺主題的招財紙紮與陣頭造型，象徵鎮煞納福。",
+    "inStock": 26,
+    "image": "images/products/399A3666-5C24-48B7-8C23-5D0C28365D51_0.jpg",
+    "highlights": [
+      "招財虎爺擺飾",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/399A3666-5C24-48B7-8C23-5D0C28365D51_0.jpg"
+    ]
+  },
+  {
+    "id": "5fcfd414-0003-43f0-abbe-96f8ffb876f3_0",
+    "name": "5FCFD414-0003-43F0-ABBE-96F8FFB876F3_0",
+    "categoryId": "C",
+    "category": "招財虎爺擺飾",
+    "price": 830,
+    "currency": "TWD",
+    "description": "虎爺主題的招財紙紮與陣頭造型，象徵鎮煞納福。",
+    "inStock": 14,
+    "image": "images/products/5FCFD414-0003-43F0-ABBE-96F8FFB876F3_0.jpg",
+    "highlights": [
+      "招財虎爺擺飾",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/5FCFD414-0003-43F0-ABBE-96F8FFB876F3_0.jpg"
+    ]
+  },
+  {
+    "id": "6f664349-d809-4a12-94e7-869a099e35ef_0",
+    "name": "6F664349-D809-4A12-94E7-869A099E35EF_0",
+    "categoryId": "C",
+    "category": "招財虎爺擺飾",
+    "price": 900,
+    "currency": "TWD",
+    "description": "虎爺主題的招財紙紮與陣頭造型，象徵鎮煞納福。",
+    "inStock": 28,
+    "image": "images/products/6F664349-D809-4A12-94E7-869A099E35EF_0.jpg",
+    "highlights": [
+      "招財虎爺擺飾",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/6F664349-D809-4A12-94E7-869A099E35EF_0.jpg"
+    ]
+  },
+  {
+    "id": "bc3ebd62-bf19-4963-92d5-4696e34195ee_0",
+    "name": "BC3EBD62-BF19-4963-92D5-4696E34195EE_0",
+    "categoryId": "C",
+    "category": "招財虎爺擺飾",
+    "price": 970,
+    "currency": "TWD",
+    "description": "虎爺主題的招財紙紮與陣頭造型，象徵鎮煞納福。",
+    "inStock": 27,
+    "image": "images/products/BC3EBD62-BF19-4963-92D5-4696E34195EE_0.jpg",
+    "highlights": [
+      "招財虎爺擺飾",
+      "真實商品實拍"
+    ],
+    "gallery": [
+      "images/products/BC3EBD62-BF19-4963-92D5-4696E34195EE_0.jpg"
+    ]
+  }
+]

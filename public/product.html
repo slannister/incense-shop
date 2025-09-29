@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>商品詳情 | 我是一間金紙香店</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="detail-page-body">
+    <header class="site-header detail-header">
+      <div class="container detail-header__inner">
+        <a class="logo" href="/">我是一間金紙香店</a>
+        <a class="btn btn--ghost" href="/index.html#products">回到商品列表</a>
+      </div>
+    </header>
+
+    <main class="detail-page" data-detail-page>
+      <div class="container">
+        <section class="detail-hero" data-detail-hero hidden>
+          <div class="detail-hero__media">
+            <div class="detail-hero__image">
+              <button class="detail-hero__lightbox-trigger" type="button" data-open-lightbox aria-label="放大檢視圖片">
+                <img data-detail-image alt="" loading="lazy" />
+              </button>
+            </div>
+            <div class="detail-gallery" data-detail-gallery hidden></div>
+          </div>
+          <div class="lightbox" data-lightbox hidden aria-modal="true" role="dialog">
+            <div class="lightbox__backdrop" data-lightbox-close></div>
+            <div class="lightbox__content">
+              <button class="lightbox__close" type="button" data-lightbox-close aria-label="關閉放大圖片">✕</button>
+              <div class="lightbox__image">
+                <img data-lightbox-image alt="" />
+              </div>
+              <div class="lightbox__controls">
+                <button class="lightbox__nav" type="button" data-lightbox-prev aria-label="上一張">‹</button>
+                <span class="lightbox__indicator" data-lightbox-indicator></span>
+                <button class="lightbox__nav" type="button" data-lightbox-next aria-label="下一張">›</button>
+              </div>
+            </div>
+          </div>
+          <div class="detail-hero__content">
+            <span class="detail-hero__category" data-detail-category></span>
+            <h1 class="detail-hero__title" data-detail-title></h1>
+            <p class="detail-hero__description" data-detail-description></p>
+            <div class="detail-hero__price" data-detail-price></div>
+            <div class="detail-hero__highlights">
+              <h2>特色亮點</h2>
+              <ul data-detail-highlights></ul>
+            </div>
+            <div class="detail-hero__actions">
+              <label class="detail-hero__quantity">
+                <span>選擇數量</span>
+                <input type="number" min="1" value="1" data-detail-quantity />
+              </label>
+              <button class="btn btn--primary" type="button" data-detail-add>加入購物車</button>
+            </div>
+            <p class="detail-hero__feedback" data-detail-feedback hidden></p>
+          </div>
+        </section>
+        <section class="detail-error" data-detail-error hidden>
+          <h1>找不到商品</h1>
+          <p>可能是連結已失效或商品已下架，請回到商品列表重新選擇。</p>
+          <a class="btn btn--ghost" href="/index.html#products">回商品列表</a>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div>
+          <h3>我是一間金紙香店</h3>
+          <p>地址：台中市沙鹿區</p>
+          <p>電話：02-1234-5678</p>
+        </div>
+        <div>
+          <p>營業時間：每日 09:00 - 21:00</p>
+          <p>客服信箱：service@example.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="cart-button cart-button--floating" aria-expanded="false" aria-controls="cart-panel">
+      <span class="cart-button__label">購物車</span>
+      <span class="cart-count" data-cart-count>0</span>
+    </button>
+
+    <div class="cart-panel" id="cart-panel" data-cart-panel hidden>
+      <div class="cart-panel__header">
+        <h3>購物車</h3>
+        <button class="cart-panel__close" type="button" data-close-cart aria-label="關閉購物車">✕</button>
+      </div>
+      <div class="cart-panel__body" data-cart-body>
+        <p class="cart-empty">購物車目前沒有商品。</p>
+      </div>
+      <div class="cart-panel__footer" data-cart-footer hidden>
+        <div class="cart-total">
+          <span>合計</span>
+          <strong data-cart-total>TWD 0</strong>
+        </div>
+        <button class="btn btn--primary btn--block" type="button" data-checkout>送出測試訂單</button>
+      </div>
+    </div>
+
+    <script src="cart-store.js" defer></script>
+    <script src="app.js" defer></script>
+    <script src="product.js" defer></script>
+  </body>
+</html>

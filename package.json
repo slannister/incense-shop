@@ -1,0 +1,10 @@
+{
+  "name": "web-project-poc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simple e-commerce proof of concept",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>我是一間金紙香店</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="#">我是一間金紙香店</a>
+        <nav class="site-nav">
+          <button class="cart-button" aria-expanded="false" aria-controls="cart-panel">
+            <span class="cart-button__label">購物車</span>
+            <span class="cart-count" data-cart-count>0</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__content">
+          <div class="hero__text">
+            <p class="eyebrow">金紙 &amp; 香</p>
+            <h1>用最少的時間，展示最好的選品</h1>
+            <p class="hero__description">
+              這個 POC 示範了商品列表、購物車與下單流程，作為自建電商網站的出發點。
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#products">探索商品</a>
+              <button class="btn btn--ghost" data-open-cart>查看購物車</button>
+            </div>
+          </div>
+          <div class="hero__visual" role="presentation">
+            <div class="hero__card">本月熱銷</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-section" id="products">
+        <div class="container">
+          <header class="product-section__header">
+            <div class="product-section__header-main">
+              <h2>精選商品</h2>
+              <p>滿額享免運，馬上挑選喜歡的好物。</p>
+            </div>
+            <div class="filter-search">
+              <input
+                type="search"
+                placeholder="輸入關鍵字，例如：祈福、虎爺"
+                data-product-search
+              />
+            </div>
+          </header>
+
+          <div class="product-filters">
+            <div class="filter-categories" data-category-filter></div>
+          </div>
+
+          <div class="product-grid" data-product-list>
+            <div class="loading-state" data-loading-state>載入商品中…</div>
+          </div>
+          <nav class="pagination" data-pagination hidden aria-label="商品頁碼"></nav>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div>
+          <h3>我是一間金紙香店</h3>
+          <p>地址：台中市沙鹿區</p>
+          <p>電話：04-1234-5678</p>
+        </div>
+        <div>
+          <p>營業時間：每日 09:00 - 21:00</p>
+          <p>客服信箱：service@example.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="cart-panel" id="cart-panel" data-cart-panel hidden>
+      <div class="cart-panel__header">
+        <h3>購物車</h3>
+        <button class="cart-panel__close" type="button" data-close-cart aria-label="關閉購物車">✕</button>
+      </div>
+      <div class="cart-panel__body" data-cart-body>
+        <p class="cart-empty">購物車目前沒有商品。</p>
+      </div>
+      <div class="cart-panel__footer" data-cart-footer hidden>
+        <div class="cart-total">
+          <span>合計</span>
+          <strong data-cart-total>TWD 0</strong>
+        </div>
+        <button class="btn btn--primary btn--block" type="button" data-checkout>送出測試訂單</button>
+      </div>
+    </div>
+
+    <template id="product-card-template">
+      <article class="product-card">
+        <div class="product-card__image-wrapper">
+          <a class="product-card__image-link" href="#" data-view-detail>
+            <img class="product-card__image" alt="" loading="lazy" />
+          </a>
+        </div>
+        <div class="product-card__body">
+          <span class="product-card__category" data-product-category></span>
+          <h3 class="product-card__title"><a data-view-detail href="#"></a></h3>
+          <p class="product-card__description"></p>
+          <ul class="product-card__highlights" aria-label="商品亮點"></ul>
+        </div>
+        <footer class="product-card__footer">
+          <div class="product-card__price"></div>
+          <div class="product-card__actions">
+            <button class="btn btn--primary" type="button" data-add-to-cart>加入購物車</button>
+          </div>
+        </footer>
+      </article>
+    </template>
+
+    <script src="cart-store.js" defer></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>
