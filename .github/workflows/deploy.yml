@@ -1,9 +1,10 @@
-name: Deploy static site (public/) to GitHub Pages
+name: Deploy static site
 
 on:
   push:
-    branches: [ "main" ]
-  workflow_dispatch:
+    branches:
+      - main  # 觸發部署的分支
+  workflow_dispatch:  # 允許手動觸發
 
 permissions:
   contents: read
@@ -18,14 +19,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 如果是單純靜態檔案，無需 build，直接上傳 public/ 當成 artifact
-      - name: Upload public/ as artifact
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20  # 若只部署純 HTML/CSS，可省略
+
+      # 如果需要編譯或打包，這裡跑 npm/yarn build
+      # - run: npm ci
+      # - run: npm run build
+
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: public  # 要部署的目錄（你的靜態網站）
 
   deploy:
     needs: build
