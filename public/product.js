@@ -282,11 +282,16 @@
     }
 
     try {
-      const response = await fetch(`/api/products/${encodeURIComponent(productId)}`);
+      const response = await fetch('data/products.json');
       if (!response.ok) {
         throw new Error('無法取得商品資料');
       }
-      const product = await response.json();
+      const data = await response.json();
+      const items = Array.isArray(data) ? data : Array.isArray(data.items) ? data.items : [];
+      const product = items.find(item => item.id === productId);
+      if (!product) {
+        throw new Error('查無此商品');
+      }
       renderProduct(product);
     } catch (error) {
       console.error(error);

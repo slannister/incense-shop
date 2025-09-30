@@ -5,7 +5,7 @@ const path = require('path');
 const HOST = process.env.HOST || '127.0.0.1';
 const PORT = process.env.PORT || 3000;
 const PUBLIC_DIR = path.join(__dirname, 'public');
-const PRODUCTS_PATH = path.join(__dirname, 'data', 'products.json');
+const PRODUCTS_PATH = path.join(__dirname, 'public', 'data', 'products.json');
 
 let productsCache = [];
 let orders = [];

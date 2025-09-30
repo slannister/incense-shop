@@ -226,7 +226,7 @@
   async function fetchProducts() {
     setLoading(true);
     try {
-      const response = await fetch('/api/products');
+      const response = await fetch('data/products.json');
       if (!response.ok) {
         throw new Error('無法取得商品資料');
       }
